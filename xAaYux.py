@@ -3,7 +3,7 @@ import moviepy.editor as mpe
 import os
 
 # Replace 'YOUR_TELEGRAM_BOT_TOKEN' with your actual bot token
-BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+BOT_TOKEN = '7011113724:AAH6I1mdsKZyEa-LQiYmTrwumEjxB-N_sqk'
 bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(content_types=['video'])
